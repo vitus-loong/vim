@@ -12,9 +12,9 @@ set nu
 set cul
 
 "启用鼠标"
-set mouse=a
-set selection=exclusive
-set selectmode=mouse,key
+"set mouse=a"
+"set selection=exclusive"
+"set selectmode=mouse,key"
 
 "显示括号匹配"
 set showmatch
@@ -30,14 +30,11 @@ set autoindent
 set paste
 
 "显示空格和tab键"
-set lcs=tab:>-
+set list listchars=tab:›\ ,trail:•,extends:#,nbsp:.
 
 "总是显示状态栏"
 set laststatus=2
 
 "显示光标当前位置"
 set ruler
-     
-			
-     
 
